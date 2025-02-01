@@ -28,7 +28,7 @@ const IdeasList = () => {
    }
  
    try {
-       const res = await fetch("https://alexeye.vercel.app/api/ideas", {
+       const res = await fetch("/api/ideas", {
            method: "POST",
            headers: {
                "Content-type": "application/json",
