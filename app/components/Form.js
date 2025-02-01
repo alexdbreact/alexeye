@@ -55,7 +55,7 @@ const Form = () => {
   }
 
   try {
-      const res = await fetch("https://alexeye.vercel.app/api/items", {
+      const res = await fetch("/api/items", {
           method: "POST",
           headers: {
               "Content-type": "application/json",
