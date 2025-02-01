@@ -28,7 +28,7 @@ const IdeasList = () => {
    }
  
    try {
-       const res = await fetch("/api/ideas", {
+       const res = await fetch("http://localhost:3000/api/ideas", {
            method: "POST",
            headers: {
                "Content-type": "application/json",

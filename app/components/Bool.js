@@ -45,7 +45,7 @@ const Bool = () => {
     }
 
     try {
-      const res = await fetch("/api/bools", {
+      const res = await fetch("http://localhost:3000/api/bools", {
         method: "POST",
         headers: {
           "Content-type": "application/json",
