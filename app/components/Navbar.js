@@ -15,7 +15,7 @@ alt='orsod logo'
 
 />
 <div>
-    <h1 className="text-xl font-bold py-0 px-2 bg-transparent text-blue-500 text-center text-shadow-xl fonty">عين الإسكندرية</h1>
+    <h1 className="text-xl font-bold py-0 px-2 bg-transparent text-blue-500 text-center text-shadow-xl fonty">أُرصــــــــد </h1>
 <p className='text-sm text-center pb' >منصة المشاركة المجتمعية لمحافظة الإسكندرية</p>
 </div>
 
